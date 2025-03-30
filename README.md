@@ -1,0 +1,7 @@
+In cleaning and preprocessing the data of the **Netflix dataset** during my analysis, I treated missing values, standardized text columns, and made things consistent. I replaced missing categorical values with mode and formatted names of countries, directors, and actors for correctness.
+
+Then, I performed **Exploratory Data Analysis (EDA)** to gain insight into Netflix's content patterns. I analyzed **Movies vs. TV Shows distribution**, leading **genres**, and **year-wise additions** to determine growth patterns. I also analyzed the most common **directors, actors, and countries**, eliminating names such as **David Attenborough and Rajiv Chilaka** to gain more clarity.
+
+I removed certain values, such as **David Attenborough and Rajiv Chilaka**, because when filling missing data using the **mode**, these names appeared excessively, leading to skewed results. This introduced **bias and outliers** in the analysis, as certain directors and actors were overrepresented. To maintain **data integrity and accurate insights**, I excluded these frequent mode values to ensure a more balanced distribution of content trends.
+
+Furthermore, I analyzed **ratings distribution**, **movie lengths**, and **TV show seasons** to learn about content length fluctuations. Through **seaborn** and **matplotlib**, I graphed these trends using bar charts and count plots, gaining important insights into Netflix's content strategy and production trends. 
